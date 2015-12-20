@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--为了确保适当的绘制和触屏缩放，需要在 <head> 之中添加 viewport 元数据标签。-->
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">   <!--插入bootstarp-->
+    <link href="CSS/main.css" rel="stylesheet" type="text/css" media="all">
+    <script type="text/javascript" src="JavaScript/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="JavaScript/bootstrap.min.js"></script><!--引入js文件-->
+    <script type="text/javascript" src="JavaScript/main.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=YIorp7W7PVRizXeWr9LLUNLv"></script>
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-default ">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+
+        </button>
+        <a class="navbar-brand" href="#">我的青春部落格</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li><a href="#">博客</a></li>
+            <li><a href="Photo.html">相册</a></li>
+            <li><a href="Person.html">个人简介</a></li>
+            <li><a href="Contact.html">联系方式</a></li>
+        </ul>
+        <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="搜索">
+            </div>
+        </form>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav">
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">首页 <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+                 <li><a href="#">Action</a></li>
+                 <li><a href="#">Another action</a></li>
+                 <li><a href="#">Something else here</a></li>
+                 <li role="separator" class="divider"></li>
+                 <li><a href="#">Separated link</a></li>
+                 <li role="separator" class="divider"></li>
+                 <li><a href="#">One more separated link</a></li>
+             </ul>
+         </li>
+             <li class="dropdown">
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">技术 <span class="caret"></span></a>
+                 <ul class="dropdown-menu">
+                     <li><a href="#">Action</a></li>
+                     <li><a href="#">Another action</a></li>
+                     <li><a href="#">Something else here</a></li>
+                     <li role="separator" class="divider"></li>
+                     <li><a href="#">Separated link</a></li>
+                     <li role="separator" class="divider"></li>
+                     <li><a href="#">One more separated link</a></li>
+                 </ul>
+             </li>
+
+         </ul>
+         <form class="navbar-form navbar-right" role="search">
+             <div class="form-group">
+                 <input type="text" class="form-control" placeholder="搜索">
+             </div>
+         </form>
+
+     </div> --> <!-- /.navbar-collapse -->
+    <!-- /.container-fluid -->
+</nav>
+<div class="container-fluid">
+    <div class="col-md-3"></div>
+    <div class="col-md-3">
+        <div class="text-left">
+            <h3>联系方式</h3>
+            <br>
+            <p>
+                Name:Mark Mamian
+            </p>
+            <p>
+                Email:Mamian521@gmail.com
+            </p>
+            <p>
+                Location:河南省安阳市开发区安阳工学院
+            </p>
+        </div>
+    </div>
+
+
+
+    <div class="col-md-6">
+    <div style="float: right">
+    <iframe width="504" height="425" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://j.map.baidu.com/uyXF7">
+
+    </iframe></div>
+    </div>
+
+</div>
+</body>
+</html>
