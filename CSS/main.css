@@ -7,8 +7,8 @@
     margin-right:  auto;    /* left和right于margin是居中  */
     margin-left: auto;
 
-    height: 160px;
-    width:72%;
+    height: 230px;
+    width:65%;
     border: 3px solid #ccc;
 }
 
@@ -17,9 +17,12 @@
 }
 
 .blogdescright{
-    padding-left: 30px;
+    position:relative;    /* 不加则不能使left失效 */
+    left:14px;            /*  向右偏移15px  */
+    margin-right:14px;   /*   右侧向左偏移15px  */
 }
-.blogdescright:p{
+.blogdescright:p,h4{
+
 }
 a:link{     /*  更改链接颜色为黑,若不改为蓝色 */
     color:#000000;
@@ -47,6 +50,9 @@ a:link{     /*  更改链接颜色为黑,若不改为蓝色 */
 
 }
 @media screen and (max-width: 768px){
+    .blogimgleft{
+        width: 70%;
+    }
     .blogdescright{
         font-size: 12px;
     }
