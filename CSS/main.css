@@ -1,3 +1,33 @@
-#map_canvas img {
-    max-width: none;
+
+.blogdivcss{
+   /* padding: 70px;      <!-- 内连   -->   */
+
+    margin-top: 75px;
+
+    margin-right:  auto;    /* left和right于margin是居中  */
+    margin-left: auto;
+
+    height: 160px;
+    width:72%;
+    border: 3px solid #ccc;
 }
+
+.blogimgleft{
+    float:left;
+}
+
+.blogdescright{
+
+}
+a:link{     /*  更改链接颜色为黑,若不改为蓝色 */
+    color:#000000;
+}
+
+.indexlogo{
+    margin-right:  auto;  /* left和right于margin是居中  */
+    margin-left: auto;
+    margin-top:200px;
+    text-align: center;
+
+}
+
