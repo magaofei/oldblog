@@ -7,7 +7,7 @@
     margin-right:  auto;    /* left和right于margin是居中  */
     margin-left: auto;
 
-    height: 230px;
+    height: 231px;
     width:65%;
     border: 3px solid #ccc;
 }
@@ -36,6 +36,13 @@ a:link{     /*  更改链接颜色为黑,若不改为蓝色 */
 }
 .blogdivcss:hover{     /*  鼠标悬停后更改边框颜色  */
     border: 3px solid #dd1818;
+}
+
+.navimg{
+    margin-top:5px;
+    margin-left: 7px;
+    width: 39px;
+    height:39px;
 }
 
     /* 以下代码为根据屏幕大小关闭图片和更改字体大小  */
