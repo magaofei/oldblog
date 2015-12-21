@@ -17,7 +17,9 @@
 }
 
 .blogdescright{
-
+    padding-left: 30px;
+}
+.blogdescright:p{
 }
 a:link{     /*  更改链接颜色为黑,若不改为蓝色 */
     color:#000000;
@@ -28,6 +30,28 @@ a:link{     /*  更改链接颜色为黑,若不改为蓝色 */
     margin-left: auto;
     margin-top:200px;
     text-align: center;
+}
+.blogdivcss:hover{     /*  鼠标悬停后更改边框颜色  */
+    border: 3px solid #dd1818;
+}
+
+    /* 以下代码为根据屏幕大小关闭图片和更改字体大小  */
+@media only screen and (max-width: 580px) {
+    .blogimgleft{
+        display: none;
+    }
+    .blogdescright{
+        font-size: 14px;
+    }
+
 
 }
+@media screen and (max-width: 768px){
+    .blogdescright{
+        font-size: 12px;
+    }
+}
+@media (max-width:960px) {
+}
+
 
