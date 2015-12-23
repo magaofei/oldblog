@@ -41,8 +41,20 @@ a:link{     /*  更改链接颜色为黑,若不改为蓝色 */
 .navimg{
     width: 39px;
     height:39px;
+    opacity:0.8;
+    margin: 0px;
+
+}
+.navimg:hover{
+    opacity: 1;
 }
 
+
+
+
+.logotwitter{
+
+}
 
 
 
