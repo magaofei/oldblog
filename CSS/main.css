@@ -73,18 +73,17 @@ a:link{     /*  更改链接颜色为黑,若不改为蓝色 */
 
 }
 
-.navbar-brand span{     //默认隐藏导航栏logo文字有BUG
+.navbar-brand span{     ///*默认隐藏导航栏logo文字有BUG*/
     opacity: 0;
     font-size: 14px;
     position:absolute;
     text-align: center;
     margin-left: 11px;
-    margin-right: auto;
     margin-top: 4px;
 
 }
 
-.navbar-brand span:hover{      // 放到上面就显示
+.navbar-brand span:hover{      /* 放到上面就显示*/
     opacity: 1;
 }
 
@@ -94,8 +93,16 @@ h4,h5{     /* 相片名字居中   */
 
 
 .logotwitter{
-
+    max-width:100px; margin-top: -9px;margin-left: 10px
 }
+.logogmail{
+    max-width:100px; margin-top: -9px;margin-left: 15px
+}
+.logogithub{
+    max-width:100px; margin-top: -9px;margin-left: 15px
+}
+
+
 
 
 
