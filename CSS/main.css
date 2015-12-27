@@ -21,7 +21,7 @@
     left:14px;            /*  向右偏移15px  */
     margin-right:14px;   /*   右侧向左偏移15px  */
 }
-.blogdescright:p,h4{
+.blogdescright p,h4{
 
 }
 a:link{     /*  更改链接颜色为黑,若不改为蓝色 */
@@ -31,9 +31,32 @@ a:link{     /*  更改链接颜色为黑,若不改为蓝色 */
 .indexlogo{
     margin-right:  auto;  /* left和right于margin是居中  */
     margin-left: auto;
-    margin-top:200px;
+    margin-top:100px;
     text-align: center;
 }
+
+.indexcontent{
+    margin-top: 100px;
+    margin-right:  auto;  /* left和right于margin是居中  */
+    margin-left: auto;
+    text-align: center;
+    width:auto;
+
+
+}
+.indexcontent img{
+    margin-left: 50px;
+    width:90px;
+    height: 90px;
+    opacity:0.6;
+}
+
+.indexcontent img:hover{
+    opacity: 1;
+}
+
+
+
 .blogdivcss:hover{     /*  鼠标悬停后更改边框颜色  */
     border: 3px solid #dd1818;
 }
@@ -49,7 +72,9 @@ a:link{     /*  更改链接颜色为黑,若不改为蓝色 */
     opacity: 1;
 }
 
-
+h4,h5{     /* 相片名字居中   */
+    text-align: center;
+}
 
 
 .logotwitter{
