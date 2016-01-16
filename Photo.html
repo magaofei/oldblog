@@ -7,13 +7,14 @@
     <!--为了确保适当的绘制和触屏缩放，需要在 <head> 之中添加 viewport 元数据标签。-->
     <link href="CSS/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">   <!--插入bootstarp-->
     <link href="CSS/main.css" rel="stylesheet" type="text/css" media="all">
+    <link href="CSS/blueimp-gallery.min.css" rel="stylesheet" type="text/css" media="all">
     <script type="text/javascript" src="JavaScript/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="JavaScript/bootstrap.min.js"></script><!--引入js文件-->
     <script type="text/javascript" src="JavaScript/main.js"></script>
+
 </head>
 <body>
-
-
+<script src="JavaScript/blueimp-gallery.min.js"></script>    <!-- 相册的js  -->
 <nav class="navbar navbar-default ">
 
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -46,10 +47,11 @@
 
 </nav>
 <div class="container-fluid">
-
+    <div id="links">
     <div class="col-xs-6 col-md-3">
         <div class="thumbnail">
-            <img src=" image/Photo/8.JPG" alt="...">     <!-- 204*153  -->
+            <a href="image/Photo/8.jpg" title="青春">
+            <img src=image/Photo/8.JPG" alt="..."></a>     <!-- 204*153  -->
             <div class="caption">
                 <h5>青 春</h5>
                 </div>
@@ -58,7 +60,8 @@
 
     <div class="col-xs-6 col-md-3">
         <div class="thumbnail">
-            <img src=" image/Photo/1.jpg" alt="...">
+            <a href="image/Photo/1.jpg" title="石头">
+            <img src=" image/Photo/1.jpg" alt="..."></a>
             <div class="caption">
                 <h5>青 春</h5>
             </div>
@@ -67,7 +70,8 @@
 
     <div class="col-xs-6 col-md-3">
         <div class="thumbnail">
-            <img src="image/Photo/2.jpg" alt="...">
+            <a href="image/Photo/2.jpg" title="青">
+            <img src="image/Photo/2.jpg" alt="..."></a>
             <div class="caption">
                 <h5>青 春</h5>
             </div>
@@ -76,7 +80,8 @@
 
     <div class="col-xs-6 col-md-3">
         <div class="thumbnail">
-            <img src=" image/Photo/3.jpg" alt="...">
+            <a href="image/Photo/3.jpg" title="蛇">
+            <img src=" image/Photo/3.jpg" alt="..."></a>
             <div class="caption">
                 <h5>青 春</h5>
             </div>
@@ -85,7 +90,8 @@
 
     <div class="col-xs-6 col-md-3">
         <div class="thumbnail">
-            <img src=" image/Photo/4.jpg" alt="...">
+            <a href="image/Photo/4.jpg" title="星际">
+            <img src=" image/Photo/4.jpg" alt="..."></a>
             <div class="caption">
                 <h5>青 春</h5>
             </div>
@@ -94,7 +100,8 @@
 
     <div class="col-xs-6 col-md-3">
         <div class="thumbnail">
-            <img src="  image/Photo/5.jpg" alt="...">
+            <a href="image/Photo/5.jpg" title="颜色">
+            <img src="  image/Photo/5.jpg" alt="..."></a>
             <div class="caption">
                 <h5>青 春</h5>
             </div>
@@ -103,7 +110,8 @@
 
     <div class="col-xs-6 col-md-3">
         <div class="thumbnail">
-            <img src="  image/Photo/6.jpg" alt="...">
+            <a href="image/Photo/6.jpg" title="树叶">
+            <img src="image/Photo/6.jpg" alt="..."></a>
             <div class="caption">
                 <h5>青 春</h5>
             </div>
@@ -112,14 +120,39 @@
 
     <div class="col-xs-6 col-md-3">
         <div class="thumbnail">
-            <img src="  image/Photo/7.jpg" alt="...">
+            <a href="image/Photo/7.jpg" title="鸟">
+            <img src="  image/Photo/7.jpg" alt="..."></a>
             <div class="caption">
                 <h5>青 春</h5>
             </div>
         </div>
     </div>
+        </div>
 
+
+
+
+    <div id="blueimp-gallery" class="blueimp-gallery">    <!-- 打开后的按钮  -->
+        <div class="slides"></div>
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+    </div>
 </div>
 </body>
+
+<script>   // js代码
+    document.getElementById('links').onclick = function (event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement,
+                link = target.src ? target.parentNode : target,
+                options = {index: link, event: event},
+                links = this.getElementsByTagName('a');
+        blueimp.Gallery(links, options);
+    };
+</script>
 
 </html>
