@@ -57,7 +57,7 @@ a:link{     /*  更改链接颜色为黑,若不改为蓝色 */
 
 
 
-.blogdivcss:hover{     /*  鼠标悬停后更改边框颜色  */
+.blogdivcss:hover{     /**  鼠标悬停后更改边框颜色  */
     border: 3px solid #dd1818;
 }
 
@@ -73,7 +73,7 @@ a:link{     /*  更改链接颜色为黑,若不改为蓝色 */
 
 }
 
-.navbar-brand span{     ///*默认隐藏导航栏logo文字有BUG*/
+.navbar-brand span{     /*默认隐藏导航栏logo文字有BUG*/
     opacity: 0;
     font-size: 14px;
     position:absolute;
@@ -107,7 +107,7 @@ h4,h5{     /* 相片名字居中   */
 
 
 
-    /* 以下代码为根据屏幕大小关闭图片和更改字体大小  */
+    /** 以下代码为根据屏幕大小关闭图片和更改字体大小  */
 @media only screen and (max-width: 580px) {
     .blogimgleft{
         display: none;
