@@ -1,21 +1,37 @@
 # 个人简历
 
-信息管理与信息系统  安阳工学院
 男 23岁 本科 2017年6月毕业 可长期实习 期待工作地点：北京 mamian521@gmail.com
 
-熟悉Git,掌握C、Java、HTML、CSS、Objective-C
+掌握C、Objective-C、HTML、CSS、Git
 
-##实习经历
-北京煤易网络国际有限公司
-图片后期处理  	2014.07-2014.09
-公司的主要业务是替客户（百度地图、酒店、KTV）提供室内或者室外的街景图片也就是360度的全景照片。我的工作是把摄像师拍好的照片进行合成处理。
+了解多线程、网络
 
-##教育经历
+GitHub地址：https://github.com/magaofei
 
-安阳工学院 信息管理与信息系统专业
+
 
 ##项目经验
+
+### 安阳工学院助手（Objective-C）
+
+iOS 2016.09 - 2016.10
+
+在iOS端实现抓取网页信息，并抽取显示(UITableView)，点击文章的cell标题后打开相关的网页(WKWebView)，目前已在App Store[上架](https://itunes.apple.com/cn/app/yang-gong-xue-yuan-zhu-shou/id1159552979?l=zh&ls=1&mt=8)
+
+使用到的技术有：自定义UITableViewCell、AutoLayout、代码实现界面跳转
+
+用到的第三方库有
+
+- Hpple  将网页中的信息解析为想要的信息
+- MBProgressHUD  显示提示框
+- Masonry  简化了AutoLayout的代码
+
+项目GitHub地址：https://github.com/magaofei/AyitHelperOC
+
+App Store地址：https://itunes.apple.com/cn/app/yang-gong-xue-yuan-zhu-shou/id1159552979?l=zh&ls=1&mt=8
+
 ###数字化校园iOS端
+
 iOS前端  	2016.02-2016.04
 数字化校园网站iOS端，主要使用swift语言配合第三方库SwiftyJSON和Alamofire来解析json，目前只实现了注册登陆界面. 地址：https://github.com/markmamian/AyitHelper
 
@@ -25,7 +41,7 @@ iOS前端  	2016.02-2016.04
 
 ###中州大学资产管理有限公司网站
 web前端  	2014.03-2014.06
-负责学校下属资产管理有限公司的web前端开发，利用bootstarp技术，后台使用ASP.NET实现 地址：https://github.com/markmamian/HQJT
+负责学校下属资产管理有限公司的web前端开发，利用bootstarp 地址：https://github.com/markmamian/HQJT
 
 ###TGA移动游戏大奖赛中州大学站高校争霸赛 2014.05-2014.05
 活动名称：TGA移动游戏大奖赛中州大学站高校争霸赛。本次比赛是河南省高校腾讯手机游戏省赛，本次活动参与人数在相关全国比赛中名列前茅。 新闻：http://211.67.107.2/Article/V/0b198e13-d23d-40f1-bd4c-86597d0e984e
@@ -49,9 +65,13 @@ GTL全国高校电子竞技联赛是技发起主办的全国高校竞技联赛�
 部长
 联系游戏厂商公司，组织电竞比赛活动，接洽过的活动公司有腾讯、网易、技嘉等，并得到多次外出培训机会
 
-###自我描述
-我相信在沟通能力和协作方面没有问题，对工作不会丧失激情，很有耐心，喜欢挑战力的工作。计算机相关专业。可长期实习。
+## 实习经历
 
+北京煤易网络国际有限公司
+图片后期处理  	2014.07-2014.09
+公司的主要业务是替客户（百度地图、酒店、KTV）提供室内或者室外的街景图片也就是360度的全景照片。我的工作是把摄像师拍好的照片进行合成处理。
 
-###期望工作  ：iOS开发工程师   实习  北京   2k-4k
+## 教育经历
+
+安阳工学院 信息管理与信息系统专业
 
